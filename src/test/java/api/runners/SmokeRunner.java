@@ -2,7 +2,7 @@ package api.runners;
 
 import com.intuit.karate.junit5.Karate;
 
-public class KarateTestRunner {
+public class SmokeRunner {
 	@Karate.Test
 	public Karate runTests() {
 		//run() method required path to feature files
